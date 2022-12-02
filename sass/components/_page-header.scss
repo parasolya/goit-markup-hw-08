@@ -1,0 +1,13 @@
+/* Шапка */
+.header {
+    background-color: var(--white-color);
+    border-bottom: 1px solid #ececec;
+  }
+  .header__box {
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+  }
+  .header__item:nth-child(1) {
+    margin-right: 93px;
+  }

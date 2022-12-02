@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--background-color-hero);
+    padding: 60px 0;
+  }
+  .logo--bottom {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .footer__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .footer__link {
+    color: var(--footer-text-color);
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: color var(--anim-fast);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  .footer__link--white {
+    color: var(--white-color);
+  }
+  

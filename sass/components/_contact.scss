@@ -1,0 +1,24 @@
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+  }
+  .contact__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-text-color);
+  
+    transition: color var(--anim-fast);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  .contact__icon {
+    fill: currentColor;
+  }
+  
