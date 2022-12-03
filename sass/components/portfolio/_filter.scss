@@ -5,11 +5,19 @@
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
-    padding: 6px 25px;
+    padding: 6px 22px;
     border-radius: 4px;
   
     transition: background-color var(--anim-fast), color var(--anim-fast), box-shadow var(--anim-fast);
 
+    &--size {
+      padding: 6px 32px;
+
+      @media screen and (min-width: 768px) {
+        padding: 6px 25px;
+      }
+    }
+    
     &:focus,
     &:hover {
       color: var(--white-color);
@@ -20,8 +28,17 @@
   }
 
   .filter {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    flex-wrap: wrap;
     gap: 8px;
+
+    @media screen and (min-width: 768px) {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+    }
   }

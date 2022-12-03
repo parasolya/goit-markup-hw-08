@@ -1,17 +1,15 @@
-.footer__title {
-    color: var(--white-color);
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-  }
-  .footer__box {
-    display: flex;
-    align-items: baseline;
-  }
+
   .footer-social {
-    width: 206px;
-    margin-left: 70px;
+    
+
+    @media screen and (min-width: 768px) {
+      margin-left: 165px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 70px;
+    }
+    
   }
   
   .footer-social__link {
