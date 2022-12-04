@@ -3,11 +3,11 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
-    
+
     justify-content: flex-end;
     flex-direction: column;
     gap: 10px;
-    
+
     margin-left: auto;
   }
 
@@ -16,28 +16,25 @@
     align-items: center;
     gap: 30px;
   }
-    
+}
+.contact__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @media screen and (min-width: 768px) {
   }
-  .contact__link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
 
-    @media screen and (min-width: 768px) {
+  color: var(--primary-text-color);
 
-    }
+  transition: color var(--anim-fast);
 
-    color: var(--primary-text-color);
-  
-    transition: color var(--anim-fast);
-
-    &:hover,
-    &:focus {
-      color: var(--accent-color);
-    }
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
   }
-  
-  .contact__icon {
-    fill: currentColor;
-  }
-  
+}
+
+.contact__icon {
+  fill: currentColor;
+}

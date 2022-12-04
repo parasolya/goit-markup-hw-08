@@ -8,15 +8,14 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
 
-   @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     font-size: 26px;
-   }
   }
+}
 
-
-  .logo--black {
-    color: var(--black-color);
-  }
-  .logo--white {
-    color: var(--white-color);
-  }
+.logo--black {
+  color: var(--black-color);
+}
+.logo--white {
+  color: var(--white-color);
+}
