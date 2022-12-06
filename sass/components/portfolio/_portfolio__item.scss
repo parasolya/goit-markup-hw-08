@@ -51,11 +51,13 @@
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-  }
+
+    color: var(--primary-text-color);
+  } 
   
   .portfolio__link {
     display: block;
-  
+    
     transition: box-shadow var(--anim-fast);
 
     &:hover,
